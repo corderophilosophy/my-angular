@@ -1,0 +1,28 @@
+{
+  "name": "my-second-angular",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "test": "karma start test/karma.conf.js"
+  },
+  "author": "Rich Cordero",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "eslint": "^2.10.2",
+    "eslint-config-google": "^0.5.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-browserify": "^5.0.5",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-eslint": "^2.1.0",
+    "karma-jasmine": "^1.0.2",
+    "sinon": "^1.17.4",
+    "watchify": "^3.7.0"
+  }
+}
